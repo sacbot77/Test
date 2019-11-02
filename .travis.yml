@@ -1,0 +1,6 @@
+language: swift
+osx_image: xcode11.2
+xcode_project: Test/Test.xcodeproj
+xcode_scheme: Test
+before_script:
+  - bundle exec danger
